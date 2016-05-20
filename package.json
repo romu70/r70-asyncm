@@ -1,0 +1,29 @@
+{
+  "name": "r70-asyncm",
+  "version": "0.0.0",
+  "description": "Asynchronous calls manager for NodeJs",
+  "main": "asyncm.js",
+  "scripts": {
+    "test": "tape /tests/asyncm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romu70/r70-asyncm.git"
+  },
+  "keywords": [
+    "node",
+    "aynchronous"
+  ],
+  "author": "Romuald Tisserand <r@tisserand.eu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romu70/r70-asyncm/issues"
+  },
+  "homepage": "https://github.com/romu70/r70-asyncm#readme",
+  "dependencies": {
+    "r70-logger": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
